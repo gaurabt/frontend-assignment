@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.padding{
+  @apply px-[2rem] xl:px-[5rem];
+}
+
+.long{
+  white-space: initial;
+  overflow: initial;
+}
