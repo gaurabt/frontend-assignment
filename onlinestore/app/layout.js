@@ -8,11 +8,6 @@ import { SearchProvider } from './hooks/SearchContext'
 
 const inter = Inter({ subsets: ['latin'] })
 
-const metadata = {
-  title: 'OnlineStore',
-  description: 'By anything with ease',
-}
-
 const queryClient= new QueryClient()
 
 export default function RootLayout({ children }) {
@@ -30,4 +25,3 @@ export default function RootLayout({ children }) {
   )
 }
 
-export {metadata}
